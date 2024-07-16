@@ -5,7 +5,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import AboutMe from './pages/AboutMe';
-import Projects from './pages/Projects';
+import Contact from './pages/Contact.js';
 import NavigationBar from './components/Navbar';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Routes> 
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/about-me" element={<AboutMe />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
           </Routes>
         </Router>
   );
