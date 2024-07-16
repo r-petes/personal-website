@@ -4,9 +4,9 @@ import background from "../assets/background.png";
 function Contact() {
   return (
     <>
-    <img src={background} id="background-photo"></img>
-    <p id="contact-info">To get in touch, please email me at rachel.peterson.5683@gmail.com!</p>
-    <img src={background} id="background-photo"></img>
+    <img src={background} className="h-[10vh] mt-[10vh] pl-[38vw]"></img>
+    <p className="text-center pt-[15vh]">To get in touch, please email me at rachel.peterson.5683@gmail.com!</p>
+    <img src={background} className="h-[10vh] mt-[10vh] pl-[38vw]"></img>
 
     </>
   );

@@ -3,7 +3,7 @@ import React from "react";
 function AboutMe() {
   return (
     <>
-    <p id="about-info">Coming Soon...</p>
+    <p className="about-infotext-center pt-[15vh]">Coming Soon...</p>
     </>
   );
 }
