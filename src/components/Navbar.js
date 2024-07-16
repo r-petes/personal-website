@@ -6,20 +6,20 @@ function NavigationBar( ) {
     return (
       <Navbar
         expand="lg"
-        className="navigation-bar"
       >
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav>
-              <Nav.Link href="/" >
-                Home
+            <Nav className="m-auto"
+            >
+              <Nav.Link href="/" className="navigation-button">
+                HOME
               </Nav.Link>
-              <Nav.Link href="about-me">
-                About Me
+              <Nav.Link href="about-me" className="navigation-button">
+                ABOUT
               </Nav.Link>
-                <Nav.Link href="contact">
-                  Contact
+                <Nav.Link href="contact" className="navigation-button">
+                  CONTACT
                 </Nav.Link>
             </Nav>
           </Navbar.Collapse>
