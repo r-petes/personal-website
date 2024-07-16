@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+h1{
+  font-family: 'DM-Serif-Display',serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2, h3, h4, h5, h6, p {
+  font-family: 'Manrope',sans-serif;
+}
+
+.intro-text-1 {
+  font-size: 10vw;
+  text-align: left;
+  padding-left: 10vh;
+  position: absolute;
+}
+  
+.intro-text-2 {
+  font-size: 10vw;
+  text-align: left;
+  padding-left: 10vh;
+  padding-top: 10%;
+  position: absolute;
+
+}
+
+#navigation-bar {
+  background-color: white !important;
+}
+
+#profile-photo {
+  width: 80vh;
+  height: auto;
+  padding-top: 45vh;
+  margin-left: 50%;
+  position: absolute;
+
+}
+
+#mountain-photo {
+height: 80vh;
+width: auto;
+padding-left: 20vh;
+margin-top: 12vh;
+position: absolute;
+
+}
+
+#homepage-visual {
+  position: relative;
+}
+
+#short-bio {
+  font-size: 2vw;
+  padding-left: 5%;
+  padding-top: 98vh;
+  padding-bottom: 50px;
+  margin-left: 2%;
+  width: 90vh;
+  position: absolute;
+
 }
