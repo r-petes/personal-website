@@ -40,7 +40,7 @@ h2, h3, h4, h5, h6, p {
 }
 
 #mountain-photo {
-height: 80vh;
+height: 75vh;
 width: auto;
 padding-left: 20vh;
 margin-top: 12vh;
@@ -58,7 +58,7 @@ position: absolute;
   padding-top: 98vh;
   padding-bottom: 50px;
   margin-left: 2%;
-  width: 90vh;
+  width: 50vw;
   position: absolute;
 
 }
