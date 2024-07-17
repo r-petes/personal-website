@@ -32,12 +32,12 @@ function Contact() {
           </a>
 
           <a
-            href="https://github.com/r-petes"
+            href="mailto:rachel.peterson.5683@gmail.com"
             className="text-center text-3xl font-thin	sm:col-span-2 sm:row-span-1 sm:row-start-2 sm:col-start-3 border-[#b8a5a0] border-1 hover:bg-[#eae5e1] rounded-full no-underline text-[#736d69] px-3 py-3 m-2 animate-fadeSlowest"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GITHUB
+            EMAIL
           </a>
 
           <h1 className="text-right sm:col-span-2 rsm:ow-span-1 sm:row-start-2 sm:col-start-1	 text-[#722534] animate-fadeSlowest italic text-6xl	tracking-widest	">
