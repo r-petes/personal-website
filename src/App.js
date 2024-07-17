@@ -5,19 +5,23 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import AboutMe from './pages/AboutMe';
-import Contact from './pages/Contact.js';
+import Projects from './pages/Projects';
 import NavigationBar from './components/Navbar';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 
 function App() {
   return (
+    <ParallaxProvider>
       <Router>
       <NavigationBar/>
           <Routes> 
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/about-me" element={<AboutMe />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
           </Routes>
         </Router>
+        </ParallaxProvider>
   );
 }
 
