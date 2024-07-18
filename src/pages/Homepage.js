@@ -37,8 +37,10 @@ function Homepage() {
           </p>
         </div>
       </div>
-      
-        <Contact />
+      <div className="mt-[10%]"> 
+      <Contact />
+      </div>
+        
     </>
   );
 }
