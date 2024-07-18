@@ -7,10 +7,10 @@ function Contact() {
     <>
           <Parallax speed={10}>
 
-      <div className="grid flex items-center justify-center ">
+      <div className="flex items-center justify-center ">
         <img
           src={background}
-          className="h-[10vh] mt-[10vh] animate-fadeFast"
+          className="w-[20%] mt-[10%] animate-fadeFast"
         ></img>
       </div>
       </Parallax>
@@ -50,7 +50,7 @@ function Contact() {
       <div className="flex items-center justify-center ">
         <img
           src={background}
-          className="flex items-center justify-center h-[10vh] animate-fade mb-16"
+          className="w-[20%] mb-[10%] animate-fade "
         ></img>
       </div>
       </Parallax>
