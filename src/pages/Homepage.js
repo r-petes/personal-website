@@ -1,5 +1,5 @@
 import React from "react";
-import profilephoto from "../assets/profile2.png";
+import profilephoto from "../assets/profile_2025.png";
 import mountainphoto from "../assets/mountains.png";
 import { Parallax } from "react-scroll-parallax";
 import Contact from "../components/Contact";
