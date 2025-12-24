@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.b762ce7e.css",
-    "main.js": "/personal-website/static/js/main.1900e17d.js",
-    "static/js/453.ed3810f9.chunk.js": "/personal-website/static/js/453.ed3810f9.chunk.js",
-    "static/media/profile_2025.png": "/personal-website/static/media/profile_2025.4f1a2a2a6aaebf5f94ed.png",
-    "static/media/mountains.png": "/personal-website/static/media/mountains.786c7b69333542a5f2bd.png",
-    "static/media/background.png": "/personal-website/static/media/background.e6f65587b39b107a756e.png",
-    "static/media/transition2.png": "/personal-website/static/media/transition2.364f059022876d1256e4.png",
-    "static/media/transition1.png": "/personal-website/static/media/transition1.34bc4dc749495f6e4767.png",
-    "index.html": "/personal-website/index.html",
-    "main.b762ce7e.css.map": "/personal-website/static/css/main.b762ce7e.css.map",
-    "main.1900e17d.js.map": "/personal-website/static/js/main.1900e17d.js.map",
-    "453.ed3810f9.chunk.js.map": "/personal-website/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/static/css/main.b762ce7e.css",
+    "main.js": "/static/js/main.e73dff08.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/profile_2025.png": "/static/media/profile_2025.4f1a2a2a6aaebf5f94ed.png",
+    "static/media/mountains.png": "/static/media/mountains.786c7b69333542a5f2bd.png",
+    "static/media/background.png": "/static/media/background.e6f65587b39b107a756e.png",
+    "static/media/transition2.png": "/static/media/transition2.364f059022876d1256e4.png",
+    "static/media/transition1.png": "/static/media/transition1.34bc4dc749495f6e4767.png",
+    "index.html": "/index.html",
+    "main.b762ce7e.css.map": "/static/css/main.b762ce7e.css.map",
+    "main.e73dff08.js.map": "/static/js/main.e73dff08.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b762ce7e.css",
-    "static/js/main.1900e17d.js"
+    "static/js/main.e73dff08.js"
   ]
 }
