@@ -8,7 +8,7 @@ import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
 import CV from './pages/CV';
 import NavigationBar from './components/Navbar';
-import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 import { ParallaxProvider } from 'react-scroll-parallax';
 
@@ -17,6 +17,7 @@ function App() {
   return (
     <ParallaxProvider>
       <NavigationBar/>
+      <main className="min-h-screen pb-24 sm:pb-32 safe-bottom">
       <Router>
           <Routes>
           <Route path="/" element={<Homepage />}></Route>
@@ -25,7 +26,8 @@ function App() {
           <Route path="/projects" element={<Projects />}></Route>
           </Routes>
         </Router>
-        <Contact />
+       </main>
+        <Footer />
 
         </ParallaxProvider>
   );

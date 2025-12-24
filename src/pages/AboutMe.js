@@ -3,7 +3,6 @@ import transition2 from "../assets/transition2.png";
 import transition1 from "../assets/transition1.png";
 import presenting from "../assets/presenting.png"
 import agu from "../assets/agu.png"
-import Contact from "../components/Contact";
 import { Parallax } from "react-scroll-parallax";
 
 function AboutMe() {

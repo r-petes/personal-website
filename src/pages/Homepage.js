@@ -2,7 +2,6 @@ import React from "react";
 import profilephoto from "../assets/profile_2025.png";
 import mountainphoto from "../assets/mountains.png";
 import { Parallax } from "react-scroll-parallax";
-import Contact from "../components/Contact";
 
 function Homepage() {
   return (
@@ -36,8 +35,6 @@ function Homepage() {
             technology as a force for positive change.
           </p>
         </div>
-      </div>
-      <div className="mt-[10%]"> 
       </div>
         
     </>

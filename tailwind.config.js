@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+    spacing: {
+            "safe-bottom": "env(safe-area-inset-bottom)",
+          },
       animation: {
         fade: 'fadeIn 2.5s ease-in-out',
         fadeSlow: 'fadeIn 3s ease-in-out',
@@ -21,6 +24,16 @@ module.exports = {
 			},
     },
   },
-  plugins: [],
+  plugins: [
+       function ({ addUtilities }) {
+         addUtilities({
+           ".safe-bottom": {
+             paddingBottom: "env(safe-area-inset-bottom)",
+           },
+         });
+       },
+     ],
 }
+
+
 
