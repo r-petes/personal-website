@@ -18,7 +18,7 @@ function Contact() {
     <Parallax speed={10}>
       <div className="flex items-center justify-center">
         <div className="grid sm:grid-cols-4 sm:grid-rows-2 place-content-center items-center">
-          <h1 className="text-right sm:col-span-2 sm:row-span-1 sm:row-start-1	sm:col-start-1 text-[#722534] animate-fadeSlower italic text-6xl	tracking-widest	">
+          <h1 className="text-right sm:col-span-2 sm:row-span-1 sm:row-start-1	sm:col-start-1 text-[#5f6851] animate-fadeSlower italic text-6xl	tracking-widest	">
             connect
           </h1>
 
@@ -40,7 +40,7 @@ function Contact() {
             GITHUB
           </a>
 
-          <h1 className="text-right sm:col-span-2 rsm:ow-span-1 sm:row-start-2 sm:col-start-1	 text-[#722534] animate-fadeSlower italic text-6xl	tracking-widest	">
+          <h1 className="text-right sm:col-span-2 rsm:ow-span-1 sm:row-start-2 sm:col-start-1	 text-[#5f6851] animate-fadeSlower italic text-6xl	tracking-widest	">
             with me
           </h1>
         </div>

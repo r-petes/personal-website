@@ -2,25 +2,31 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {  HashRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
+import CV from './pages/CV';
 import NavigationBar from './components/Navbar';
+import Contact from './components/Contact';
+
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 function App() {
   return (
     <ParallaxProvider>
-      <Router>
       <NavigationBar/>
-          <Routes> 
+      <Router>
+          <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/about-me" element={<AboutMe />}></Route>
+          <Route path="/cv" element={<CV />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           </Routes>
         </Router>
+        <Contact />
+
         </ParallaxProvider>
   );
 }
