@@ -31,8 +31,8 @@ function Homepage() {
         </div>
         <div className="sm:col-span-1 sm:row-span-2 sm:row-start-2	sm:col-start-1">
           <p className="text-xl text-right pr-[20%] pl-[20%] mt-[20%] mb-[20%] sm:mt-0 sm:mb-0 font-extralight animate-fade text-stone-400">
-            I'm a software engineer committed to using
-            technology as a force for positive change.
+          I'm a software engineer working at the intersection of data,
+          research, and environmental impact.
           </p>
         </div>
       </div>

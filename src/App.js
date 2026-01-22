@@ -17,7 +17,7 @@ function App() {
   return (
     <ParallaxProvider>
       <NavigationBar/>
-      <main className="min-h-screen pb-24 sm:pb-32 safe-bottom">
+      <main className="min-h-screen safe-bottom">
       <Router>
           <Routes>
           <Route path="/" element={<Homepage />}></Route>

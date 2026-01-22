@@ -1,18 +1,37 @@
 import React from "react";
-import { Outlet, Link } from 'react-router-dom'
+import headerImage from "../assets/header.png";
 
-function NavigationBar( ) {
-    return (
-      <div className="flex items-center justify-center m-10">
-              <a href="/" className="no-underline text-[#b8a5a0] px-10 py-3 animate-fadeFast">HOME</a> 
-              <a href="#/about-me" className="no-underline text-[#b8a5a0] px-10 py-3 animate-fade">ABOUT</a>
-              <a href="#/cv" className="no-underline text-[#b8a5a0] px-10 py-3 animate-fade">CV</a>
-              {/* <a href="projects" className="no-underline text-[#b8a5a0] px-10 py-3 animate-fadeSlower">PROJECTS</a> */}
+function NavigationBar() {
+  return (
+    <div
+      className="relative w-full h-24 bg-cover bg-center mb-20" // Give a fixed height
+      style={{ backgroundImage: `url(${headerImage})` }}
+    >
+
+      {/* Nav links */}
+      <div className="relative flex items-center justify-center h-full gap-6">
+        <a
+          href="/"
+          className="no-underline text-black px-6 py-2 animate-fadeFast"
+        >
+          home
+        </a>
+        <a
+          href="#/about-me"
+          className="no-underline text-black px-6 py-2 animate-fade"
+        >
+          about
+        </a>
+        <a
+          href="#/cv"
+          className="no-underline text-black px-6 py-2 animate-fade"
+        >
+          cv
+        </a>
       </div>
+    </div>
+  );
+}
 
-                
+export default NavigationBar;
 
-    );
-  }
-  
-  export default NavigationBar;
