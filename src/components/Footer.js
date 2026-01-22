@@ -11,7 +11,6 @@ const Footer = () => {
       className="relative bg-cover bg-center"
       style={{ backgroundImage: `url(${footerImage})` }}
     >
-      {/* Optional overlay for readability */}
       <div className="absolute inset-0 bg-black/40"></div>
 
       <div className="relative max-w-4xl mx-auto px-6 py-12 flex flex-col items-center gap-6 text-center">
@@ -39,5 +38,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-

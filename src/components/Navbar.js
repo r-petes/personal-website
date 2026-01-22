@@ -4,11 +4,9 @@ import headerImage from "../assets/header.png";
 function NavigationBar() {
   return (
     <div
-      className="relative w-full h-24 bg-cover bg-center mb-20" // Give a fixed height
+      className="relative w-full h-24 bg-cover bg-center mb-20"
       style={{ backgroundImage: `url(${headerImage})` }}
     >
-
-      {/* Nav links */}
       <div className="relative flex items-center justify-center h-full gap-6">
         <a
           href="/"
@@ -34,4 +32,3 @@ function NavigationBar() {
 }
 
 export default NavigationBar;
-
